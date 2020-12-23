@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deluxe</title>
-    <link rel="icon" type="image/png" href="./img/bbq.png"/>
+    <link rel="icon" type="image/png" href="./img/bbq.png" />
     <link rel="stylesheet" href="./css/estilos.css" />
     <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
@@ -21,7 +21,7 @@
       <img src="./img/bx-menu.svg" alt="" class="hamburguesa" />
       <nav class="menu-navegacion">
         <a href="#Inicio">Inicio</a>
-        <a href="#Menu">Menú</a>
+        <a href="#menu">Menú</a>
         <a href="#ubi">Ubicación</a>
         <a href="#equipos">Sobre Nosotros</a>
       </nav>
@@ -35,46 +35,90 @@
     <main>
       <section class="delivery">
         <div class="contenedor contenedor-delivery">
-          <h2>Tenemos Delivery</h2>
+          <h2>
+            Tenemos <br />
+            Delivery
+          </h2>
           <img src="./img/delivery.png" alt="" class="dad" />
         </div>
       </section>
 
-      <section class="menu-comida" id="servicio">
+      <section class="menu-comida" id="servicio" id="menu">
         <div class="contenedor">
-          <h2 class="subtitulo">Nustros Mejores Platos</h2>
-          <div class="contenedor-menu" id="Menu">
-            <div class="menu-1" id="myBtn" >
+          <h2 class="subtitulo">Nuestros Mejores Platos</h2>
+          <div class="contenedor-menu">
+            <div class="menu-1" id="myBtn">
               <h2 class="img-desc">Plato 1</h2>
-              <img src="img/plato1.jpg" alt="4$" class="img-menu" id="myBtn"/>
+              <img src="img/plato1.jpg" alt="4$" class="img-menu" id="myBtn" />
               <p>4$</p>
             </div>
-            <div class="menu-1 myBtn" id="myBtn" >
+            <div class="menu-1 myBtn" id="myBtn">
               <h2 class="img-desc">Plato 2</h2>
               <img src="img/plato2.jpg" alt="8$" class="img-menu" id="myBtn2" />
               <p>8$</p>
             </div>
-             <div class="menu-1" id="myBtn">
+            <div class="menu-1" id="myBtn">
               <h2 class="img-desc">Plato 3</h2>
-              <img src="img/plato3.jpg" alt="Mediano 40$, Grande 7$" class="img-menu" id="myBtn3"/>
+              <img
+                src="img/plato3.jpg" alt="Mediano 40$, Grande 7$" class="img-menu" id="myBtn3"
+              />
+
               <p>Mediano 40$, Grande 7$</p>
             </div>
-            <div class="menu-1" id="myBtn" >
+            <div class="menu-1" id="myBtn">
               <h2 class="img-desc">Plato 4</h2>
-              <img src="img/plato4.jpg" alt="Mediano 6$, Grande 10$" class="img-menu" />
+              <img
+                src="img/plato4.jpg"
+                alt="Mediano 6$ <br> Grande 10$"
+                class="img-menu"
+              />
               <p>Mediano 6$, Grande 10$</p>
             </div>
-            <div class="menu-1" id="myBtn" >
+            <div class="menu-1" id="myBtn">
               <h2 class="img-desc">Plato 5</h2>
               <img src="img/plato5.jpg" alt="6$" class="img-menu" />
               <p>6$</p>
             </div>
-            <div class="menu-1" id="myBtn" >
+            <div class="menu-1" id="myBtn">
               <h2 class="img-desc">Plato 6</h2>
               <img src="img/plato6.jpg" alt="7$" class="img-menu MyBtn" />
               <p>7$</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <div class="separador"></div>
+
+      <section id="qr" class="qr-wha">
+        <div class="contenedor contenedor-qr">
+          <h2>Ordene su pedido vía Whatsapp</h2>
+          <div class="qr-info">
+            <div class="codigoqr">
+              <img src="./img/qr.png" alt="" />
+            </div>
+            <div class="qr-desc">
+              <p>
+                <span class="numero">1</span> Puedes escanear nuesto código QR
+                para enviarnos un mensaje directo y realizar su pedido con la
+                imagen de la izquierda
+                <br />
+                <br />
+                <span class="numero">2</span> También puedes agregarnos
+                manualmente a nuestro número de contacto, el cual es
+                +584248470534
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="codigo-telf" class="codigo-telefonos">
+        <div class="contenedor qr-telefonos">
+          <h2>Contáctanos vía Whatsapp</h2>
+          <div class="qr-infos">
+              <p>Odena tu pedido presionando sobre el ícono de whatsapp, asi prodrás enviarnos un mensaje directamente</p>
+              <a href="https://api.whatsapp.com/send?phone=+584248470534"><img src="./img/whats.png" alt=""></a>
         </div>
       </section>
 
@@ -140,14 +184,21 @@
     <footer id="footer">
       <div class="contenedor contenedor-footer">
         <div class="footer-logo">
-          <img src="./img/logo.png" alt="">
+          <img src="./img/logo.png" alt="" />
         </div>
         <div class="#">
-          <a href="social-media-icon" class="social-media-icon">
-            <i class="bx bxl-whatsapp "></i>
+          <a
+            href="https://api.whatsapp.com/send?phone=+584248470534"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-whatsapp"></i>
           </a>
-          <a href="https://www.instagram.com/deluxefastfoodanddelivery/" target="_blank" class="social-media-icon">
-            <i class="bx bxl-instagram "></i>
+          <a
+            href="https://www.instagram.com/deluxefastfoodanddelivery/"
+            target="_blank"
+            class="social-media-icon"
+          >
+            <i class="bx bxl-instagram"></i>
           </a>
         </div>
       </div>
@@ -162,6 +213,9 @@
     </div>
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
-    <script src="https://kit.fontawesome.com/7368c40b21.js" crossorigin="anonymous" ></script>
+    <script
+      src="https://kit.fontawesome.com/7368c40b21.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
