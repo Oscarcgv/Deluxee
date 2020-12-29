@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0px;
+  background: #f2f2f2;
 }
 
 :root {
@@ -200,6 +201,25 @@ header {
 .menu-1 p {
   justify-content: center;
   text-align: center;
+}
+
+.extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.extra h2 {
+  font-weight: 400;
+}
+
+.bebidas {
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.dulces {
+  justify-content: center;
 }
 
 .separador {
@@ -407,11 +427,9 @@ header {
   .qr-infos {
     justify-content: center;
     text-align: center;
-
   }
 
-
-  .qr-infos p{
+  .qr-infos p {
     color: #4a4752;
     text-align: center;
     margin: 10px;
@@ -425,7 +443,6 @@ header {
     font-weight: 300;
   }
 
-
   .qr-infos img {
     width: 60%;
   }
@@ -433,8 +450,6 @@ header {
   .menu-navegacion {
     width: 50vw;
   }
-
-
 
   .head h1 {
     font-size: 40px;
@@ -466,7 +481,7 @@ header {
   .contenedor-qr h2 {
     font-size: 40px;
   }
-  
+
   .contenedor-delivery {
     justify-content: center;
     align-items: center;
@@ -517,7 +532,6 @@ header {
   .qr-wha {
     display: none;
   }
-
 }
 
 .images {
